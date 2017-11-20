@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,600);
+
+
+/*h4 {
+  margin: 5px 20px;
+}*/
+
+label {
+  margin: 5px 20px;
+}
+
+textarea#guidout {
+  display: none;
+}
+
+label#timestamp0 {
+  float: right;
+}
+
+label#name0 {
+  font-weight: bold;
+  font-size: larger;
+  /*float: left;*/
+}
+
+p#comment0 {
+  margin: 5px 20px;
+}
+
+label#postal_code0 {
+  margin: 5px 0px !important;
+}
+
+label#addressFinder0 {
+  float: left;
+}
+
+input#reply0 {
+  margin: 10px 20px;
+}
+
+
+span {
+  float: left;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+hr {
+  border: 0;
+  height: 0;
+/*  border-top: 1px solid rgba(0, 0, 0, 0.1);
+*/  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 0.5rem !important;
+  max-width: inherit !important;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comment-box {
+  width: 90%;
+  margin-top: 50px;
+  background: #fff;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: -webkit-auto;
+}
+.comment-box p {
+  margin: 0 30px 15px;
+  font-weight: 300;
+  color: #333;
+  word-wrap: break-word;
+  background: #EEE;
+  padding: 5px 10px;
+}
+
+.header {
+  margin: 15px 20px;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.modal-body {
+    text-align: justify;
+}
+
+form {
+  margin: 10px 10px 30px 10px;
+}
+form ::-webkit-input-placeholder {
+  color: #CCC;
+  font-weight: 300;
+}
+
+input[type="text"], textarea {
+  margin: 5px 10px;
+  outline: none;
+  background: #efefef;
+  border: 0;
+  padding: 10px;
+  margin-left: auto;
+}
+
+textarea {
+  resize: none;
+  width: 85%;
+}
+
+input[type="text"] {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+button {
+  font-weight: 400;
+  margin: 12px 0 0 10px;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  background: #D3775D;
+  padding: 12px 20px 12px 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+button:hover {
+  background: #C15322;
+}
+
+.footer p {
+  float: right;
+  font-size: 13px;
+  margin-bottom: 10px;
+  background: #FFF;
+}
